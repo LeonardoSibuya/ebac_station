@@ -1,0 +1,122 @@
+/*
+    --cor3: #519ff9a1;
+    --cor4: #1353D4;
+    --cor5: #003B9B;
+*/
+
+@font-face {
+    font-family: 'plays';
+    src: url('playstation.ttf'); format('truetype');
+    font-weight: normal;
+    font-style: normal
+}
+
+header {
+    background-color: #1353D4;
+    font-family: 'plays';
+}
+
+header h1 {
+    color: #cac7c7;
+    font-size: 2.8em;
+}
+
+#cabecalho .nav .nav-link.active,
+.nav-jogos {
+    background-color: #fff;
+    color: #1353D4;
+}
+
+.nav-jogos .nav-link:hover {
+    color: #0a2763;
+}
+
+#cabecalho .nav .nav-link {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #519ff9a1;
+}
+
+.carousel-item img {
+    height: 600px;
+}
+
+.linha {
+    width: 100%;
+    border: .5px solid #1353D4;
+}
+
+.fonte-play {
+    font-family: 'plays';
+}
+
+.colored {
+    color: #1353D4;
+}
+
+#destaque,
+#contato {
+    background-color: #e4eefaa1;
+}
+
+.tab-content a {
+    text-decoration: none;
+}
+
+.promo {
+    font-style: italic;
+    text-decoration: line-through;
+    color: red;
+}
+
+.preco {
+    color: #1353D4;
+    font-weight: bold;
+}
+
+#contato button {
+    background-color: #1353D4;
+    color: #fff;
+}
+
+#contato button:hover {
+    background-color: #092969;
+}
+
+#jogos {
+    padding-top: 75px;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
